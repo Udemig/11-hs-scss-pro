@@ -3,6 +3,10 @@
 @import "header";
 @import "home";
 @import "about";
+@import "favorite";
+@import "model";
+@import "sponsor";
+@import "footer";
 @import "responsive";
 * {
   margin: 0;
@@ -60,6 +64,7 @@ h4 {
 
 .container {
   max-width: 1120px;
+  margin-inline: 24px;
 }
 .grid {
   display: grid;

@@ -9,8 +9,18 @@
     }
     &__social {
       top: 0;
+      bottom: 0;
       align-content: center;
     }
+    &__social-text {
+      font-size: 16px;
+    }
+    &__social-links {
+      margin-left: 26px;
+    }
+  }
+  .sponsor__container {
+    grid-template-columns: repeat(4, max-content);
   }
 }
 @media screen and (min-width: 1150px) {
@@ -36,6 +46,12 @@
       font-size: var(--normal-font-size);
       transform: translate(82px, -52px);
     }
+    &__social-links {
+      row-gap: 16px;
+    }
+    &__social-link {
+      font-size: 24px;
+    }
   }
   .about {
     &__container {
@@ -48,5 +64,24 @@
   .about__data .section__title,
   .about__data {
     text-align: initial;
+  }
+  .model__img {
+    width: 600px;
+  }
+  .model__tooltip-img {
+    width: initial;
+  }
+  .model__tooltip-text {
+    font-size: var(--normal-font-size);
+    transform: translate(82px, -56px);
+    padding: 8px;
+  }
+  .model__tooltip-1 {
+    top: 160px;
+    left: 13rem;
+  }
+  .model__tooltip-3 {
+    bottom: 150px;
+    left: 400px;
   }
 }
